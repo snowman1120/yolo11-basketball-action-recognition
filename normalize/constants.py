@@ -49,10 +49,10 @@ ATTRS_PER_DET = 4 + NUM_CLASSES  # 4 (bbox) + 2 (class scores) = 6
 # Thresholds / tuning parameters
 BALL_IOU_THRESH = 0.55
 POSE_IOU_THRESH = 0.5
-BALL_CONF_THRESH = 0.4
+BALL_CONF_THRESH = 0.2
 POSE_CONF_THRESH = 0.15
 #
 # Note: this threshold is used for "full body" coverage scoring when selecting
 # the best pose (not for filtering keypoints out of the output JSON).
-KEYPOINT_CONF_THRESH = 0.7
+KEYPOINT_CONF_THRESH = 0.2
 
