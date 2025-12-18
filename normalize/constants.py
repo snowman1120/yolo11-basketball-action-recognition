@@ -14,7 +14,7 @@ POSE_MODEL_PATH = "models/yolo11x-pose.pt"
 BALL_MODEL_PATH = "models/yolo11n-trained.onnx"
 
 # Inference device
-DEVICE = "cuda"  # "cpu" or "cuda"
+DEVICE = "cpu"  # "cpu" or "cuda"
 
 # Enable/disable detectors by default
 ENABLE_BALL = True
